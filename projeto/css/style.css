@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #333333;
+    line-height: 1.8;
+}
+
+header {
+    background: #1E4D23;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+header h1 {
+    font-size: 55px;
+    color: #ffffff;
+}
+
+header span {
+    color: #E56A00;
+}
+
+header p {
+    margin-top: 0px;
+    font-size: 22px;
+    color: #dddddd;
+}
+
+nav {
+    background: #143D18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 18px;
+    flex-wrap: wrap;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #F28C28;
+}
+
+nav a.ativo {
+    color: #F28C28;
+    border-bottom: 3px solid #E56A00;
+    padding-bottom: 5px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+main h2 {
+    color: #2F5D36;
+    border-bottom: 3px solid #2F5D36;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 span {
+    color: #E56A00;
+}
+
+p strong {
+    color: #1E4D23;
+}
+
+p span {
+    color: #E56A00;
+}
+
+main p {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.destaque {
+    background: #FDF5EF;
+    border-left: 8px solid #E56A00;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+ul {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+footer {
+    background: #143D18;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+@media (max-width:768px) {
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    gap: 20px;
+}
+
+nav a {
+    font-size: 17px;
+}
+
+main {
+    width: 95%;
+}
+
+main h2 {
+    font-size: 28px;
+}
+
+main p, li {
+    font-size: 17px;
+}
+
+}

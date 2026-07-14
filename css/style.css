@@ -70,12 +70,12 @@ main {
 }
 
 main h2 {
-    color: #2F5D36;
+    color: #295B2F;
     font-size: 22px;
-    font-weight: normal;
-    border-bottom: 3px solid #2F5D36;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #295B2F;
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    font-weight: normal;
 }
 
 main p {
@@ -180,6 +180,10 @@ footer {
 
 }
 
+/*PÁGINA GALERIA*/
+
+
+
 
 /*PÁGINA BOX MODEL*/
 
@@ -225,6 +229,7 @@ blockquote {
     margin: 30px auto;
     padding: 30px;
     box-sizing: border-box;
+    border: 3px solid #C95800;
 }
 
 .padding-box {
@@ -232,6 +237,7 @@ blockquote {
     margin: 30px auto;
     padding: 30px;
     box-sizing: border-box;
+    border: 3px solid #143D18;
 }
 
 .content-box {
@@ -240,6 +246,7 @@ blockquote {
     margin: 30px auto;
     padding: 20px;
     box-sizing: border-box;
+    border: 3px solid #444444;
 }
 
 .inline-box {

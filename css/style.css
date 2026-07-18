@@ -196,7 +196,7 @@ footer {
 
 .modalidade img {
     width: 100%;
-    height: 350px;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -238,13 +238,9 @@ footer {
 
 .atleta-card img {
     width: 100%;
-    height: 260px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
     display: block;
-}
-
-.atleta-info {
-    padding: 20px;
 }
 
 .atleta-info h3 {
@@ -265,7 +261,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 25px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -286,6 +282,8 @@ footer {
     width: 100%;
     height: 180px;
     object-fit: cover;
+    display: block;
+    margin-top: 0px;
 }
 
 .card h3 {

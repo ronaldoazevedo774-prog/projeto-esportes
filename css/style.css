@@ -45,7 +45,7 @@ nav {
     border-radius: 0px 0px 10px 10px;
 }
 
-nav a {
+nav > a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -87,6 +87,14 @@ main p {
 ul {
     margin-left: 30px;
     margin-bottom: 35px;
+}
+
+main h2 + p {
+    margin-top: 10px;
+}
+
+main h2 ~ div {
+    margin-top: 25px;
 }
 
 li {
@@ -182,9 +190,74 @@ footer {
 
 /*PÁGINA MODALIDADES*/
 
+.modalidade {
+    margin-bottom: 45px;
+}
+
+.modalidade img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.modalidade h2 {
+    color: #295B2F;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.modalidade h3 {
+    color: #295B2F;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.modalidade p {
+    line-height: 1.5;
+    font-size: 16px;
+}
 
 /*PÁGINA ATLETAS*/
 
+.atletas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.atleta-card {
+    max-width: 900px;
+    width: 100%;
+    margin: 45px auto;
+}
+
+.atleta-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.atleta-info {
+    padding: 20px;
+}
+
+.atleta-info h3 {
+    color: #295B2F;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.atleta-info p {
+    font-size: 17px;
+    line-height: 1.8;
+}
 
 /*PÁGINA GALERIA*/
 
@@ -247,6 +320,39 @@ footer {
 
 /*PÁGINA EQUIPE*/
 
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin: 35px 0;
+}
+
+.membro {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    padding: 25px;
+    border-top: 5px solid #2F5D36;
+}
+
+.membro h3 {
+    color: #2F5D36;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.membro p {
+    margin-bottom: 10px;
+}
+
+.membro ul {
+    margin-left: 20px;
+}
+
+.membro li {
+    margin-bottom: 8px;
+}
 
 /*PÁGINA BOX MODEL*/
 
